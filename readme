@@ -1,0 +1,20 @@
+Note: The project is created as a part of a college presentation for learning purposes only, and the user in no way motivates or inspires the misuse of it in order to retrieve other user's credentials.
+
+
+Project includes a fake similar "login page" for Facebook, via which when logged in, will store the credentials in the database and redirect user to the actual Facebook "Retry login attempt page". The user will be fooled thinking that he might have typed in the wrong password and may continue by typing the credentials again to the actual link which will redirect him/her to their actual facebook profile making him/her unware of phishing of their credentials.
+
+Project is made using codeigniter framework of PHP
+
+Steps:
+Copy the "facebook" folder to your servaer location in your computer from where you run your sites on localhost,
+e.g. var/www/html for ubuntu (using apache 2 server)
+
+Import the phishing.sql file in your database (such as phpmyadmin)
+
+Change the database settings in "facebook/application/config/database.php"
+e.g. Change username and password to that of your database on localhost.
+
+if working on apache 2 server on localhost on ubuntu then this link should work on your browser to access the webpage:
+"http://localhost/facebook/index.php/login"
+
+The address may change according to your location of the facebook folder.
