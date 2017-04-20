@@ -1,9 +1,12 @@
+###################
 Note: The project is created as a part of a college presentation for learning purposes only, and the user in no way motivates or inspires the misuse of it in order to retrieve other user's credentials.
+###################
 
 
 Project includes a fake similar "login page" for Facebook, via which when logged in, will store the credentials in the database and redirect user to the actual Facebook "Retry login attempt page". The user will be fooled thinking that he might have typed in the wrong password and may continue by typing the credentials again to the actual link which will redirect him/her to their actual facebook profile making him/her unware of phishing of their credentials.
 
 Project is made using codeigniter framework of PHP
+
 
 Steps:
 Copy the "facebook" folder to your servaer location in your computer from where you run your sites on localhost,
